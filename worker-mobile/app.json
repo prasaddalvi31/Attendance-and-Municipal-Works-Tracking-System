@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "NeuraX Worker App",
+    "slug": "neurax-worker-mobile",
+    "scheme": "neurax",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "CAMERA"
+      ]
+    },
+    "ios": {
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to capture geotagged photo proof.",
+        "NSLocationWhenInUseUsageDescription": "This app needs access to location to verify worker attendance.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app requires background tracking to optimize routes."
+      }
+    },
+    "plugins": [
+      "expo-web-browser"
+    ]
+  }
+}
